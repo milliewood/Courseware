@@ -9,11 +9,11 @@ type Props = {
 };
 
 const MainVideoSummary = ({
-  unit,
   unitIndex,
   chapter,
   chapterIndex,
 }: Props) => {
+  console.log("Chapter Summary:", chapter.summary);
   return (
     <div className="flex-[2] mt-16">
       <h4 className="text-sm uppercase text-secondary-foreground/60">

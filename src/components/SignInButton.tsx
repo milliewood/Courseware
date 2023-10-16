@@ -8,6 +8,7 @@ type Props = {};
 const SignInButton = (props: Props) => {
   return (
     <Button
+      className="bg-gray-300 text-black"
       variant="ghost"
       onClick={() => {
         signIn("google");

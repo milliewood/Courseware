@@ -30,6 +30,10 @@ const QuizCards = ({ chapter }: Props) => {
       }
       setQuestionState(newQuestionState);
     });
+    console.log("checkAnswer function called");
+    console.log("Answers:", answers);
+    console.log("Check Answer button clicked");
+    console.log("questionState:", newQuestionState);
   }, [answers, questionState, chapter.questions]);
   return (
     <div className="flex-[1] mt-16 ml-8">

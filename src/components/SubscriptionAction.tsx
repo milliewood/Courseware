@@ -27,7 +27,7 @@ const SubscriptionAction = (props: Props) => {
       {data?.user.credits} / 10 Free Generations
       <Progress
         className="mt-2"
-        value={data?.user.credits ? (data.user.credits / 10) * 100 : 0}
+        value={data?.user.credits ? (data.user.credits / 12) * 100 : 0}
       />
       <Button
         disabled={loading}
